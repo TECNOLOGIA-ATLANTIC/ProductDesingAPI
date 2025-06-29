@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+    <PackageReference Include="NLog" Version="5.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\People\Commands\CreatePerson\" />
+    <Folder Include="Features\People\Commands\UpdatePerson\" />
+    <Folder Include="Features\People\Queries\GetPersonByIdQuery\" />
+    <Folder Include="Features\People\Queries\GetPeopleQuery\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AtlanticProductDesing.Domain\AtlanticProductDesing.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

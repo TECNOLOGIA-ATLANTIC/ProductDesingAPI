@@ -1,0 +1,38 @@
+[
+  {
+    "DeliveryCode": 1,
+    "Description": "INMEDIATA",
+    "DaysFrom": -160,
+    "DaysTo": 5,
+    "ValidBusinessDay": true,
+    "TolerancePercentage": 500000.0,
+    "Status": "A"
+  },
+  {
+    "DeliveryCode": 2,
+    "Description": "PLAZO",
+    "DaysFrom": 6,
+    "DaysTo": 30,
+    "ValidBusinessDay": true,
+    "TolerancePercentage": 500000.0,
+    "Status": "A"
+  },
+  {
+    "DeliveryCode": 3,
+    "Description": "FUTURA",
+    "DaysFrom": 31,
+    "DaysTo": 365,
+    "ValidBusinessDay": true,
+    "TolerancePercentage": 1000000.0,
+    "Status": "A"
+  },
+  {
+    "DeliveryCode": 10,
+    "Description": "DELIVERY",
+    "DaysFrom": 0,
+    "DaysTo": 360,
+    "ValidBusinessDay": true,
+    "TolerancePercentage": 1000000.0,
+    "Status": "A"
+  }
+]

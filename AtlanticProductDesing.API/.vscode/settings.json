@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/fe9bede5-7f01-4431-b4d4-e851ed402719/resourceGroups/Idss/providers/Microsoft.Web/sites/EventusApi",
+    "appService.deploySubpath": "bin\\Release\\net6.0\\publish"
+}

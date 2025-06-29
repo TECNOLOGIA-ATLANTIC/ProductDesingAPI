@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{45393B44-EF4A-49BD-B79D-B21DF08B8068}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3BC4067B-39F1-401C-BC50-56D4BB70F04C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A777FC5F-502A-4588-98B3-76DDD4B1E542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{326C080A-9291-4033-9E64-60EA6073BD36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{4DC58E2C-759B-4ACC-8646-D0EA932DC2D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlanticProductDesing.API", "AtlanticProductDesing.API\AtlanticProductDesing.API.csproj", "{A65C7210-D900-16B8-D84D-A5E73E96882F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlanticProductDesing.Application", "AtlanticProductDesing.Aplication\AtlanticProductDesing.Application.csproj", "{E0751206-6BD3-C879-CF9B-842580C31619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlanticProductDesing.Domain", "AtlanticProductDesing.Domain\AtlanticProductDesing.Domain.csproj", "{DC0B32B1-BF63-AB38-4F1E-E4C3DC6D15C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlanticProductDesign.Infrastruture", "AtlanticProductDesing.Data\AtlanticProductDesign.Infrastruture.csproj", "{1EEC3C11-AA11-11B3-4413-988BD082A3F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65C7210-D900-16B8-D84D-A5E73E96882F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65C7210-D900-16B8-D84D-A5E73E96882F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65C7210-D900-16B8-D84D-A5E73E96882F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65C7210-D900-16B8-D84D-A5E73E96882F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0751206-6BD3-C879-CF9B-842580C31619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0751206-6BD3-C879-CF9B-842580C31619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0751206-6BD3-C879-CF9B-842580C31619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0751206-6BD3-C879-CF9B-842580C31619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0B32B1-BF63-AB38-4F1E-E4C3DC6D15C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0B32B1-BF63-AB38-4F1E-E4C3DC6D15C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0B32B1-BF63-AB38-4F1E-E4C3DC6D15C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0B32B1-BF63-AB38-4F1E-E4C3DC6D15C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEC3C11-AA11-11B3-4413-988BD082A3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEC3C11-AA11-11B3-4413-988BD082A3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEC3C11-AA11-11B3-4413-988BD082A3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEC3C11-AA11-11B3-4413-988BD082A3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A777FC5F-502A-4588-98B3-76DDD4B1E542} = {3BC4067B-39F1-401C-BC50-56D4BB70F04C}
+		{326C080A-9291-4033-9E64-60EA6073BD36} = {3BC4067B-39F1-401C-BC50-56D4BB70F04C}
+		{4DC58E2C-759B-4ACC-8646-D0EA932DC2D9} = {3BC4067B-39F1-401C-BC50-56D4BB70F04C}
+		{A65C7210-D900-16B8-D84D-A5E73E96882F} = {A777FC5F-502A-4588-98B3-76DDD4B1E542}
+		{E0751206-6BD3-C879-CF9B-842580C31619} = {326C080A-9291-4033-9E64-60EA6073BD36}
+		{DC0B32B1-BF63-AB38-4F1E-E4C3DC6D15C0} = {326C080A-9291-4033-9E64-60EA6073BD36}
+		{1EEC3C11-AA11-11B3-4413-988BD082A3F4} = {4DC58E2C-759B-4ACC-8646-D0EA932DC2D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F76A7662-4925-4725-B7B1-93CDE17EB0C7}
+	EndGlobalSection
+EndGlobal
