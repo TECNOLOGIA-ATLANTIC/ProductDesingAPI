@@ -13,6 +13,10 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Ignorar archivos de configuración sensibles
+appsettings.json
+appsettings.Development.json
+
 # Mono auto generated files
 mono_crash.*
 
