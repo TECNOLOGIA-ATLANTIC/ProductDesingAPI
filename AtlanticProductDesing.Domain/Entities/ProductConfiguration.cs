@@ -16,5 +16,6 @@ namespace AtlanticProductDesing.Domain.Entities
         public ICollection<QuotationConfiguration> QuotationConfigurations { get; set; } = new List<QuotationConfiguration>();
         public ICollection<PolicyConfiguration> PolicyConfigurations { get; set; } = new List<PolicyConfiguration>();
         public ICollection<ListValue> ListValues { get; set; } = new List<ListValue>();
+        public ICollection<DynamicTable> DynamicTables { get; set; } = new List<DynamicTable>();
     }
 }
